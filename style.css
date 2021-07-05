@@ -1,0 +1,37 @@
+body{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-family: 'Uchen', serif;
+    margin: 0px 
+}
+#food{
+    margin-left: 60px;
+}
+#court{
+    color: red;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 60px;
+}
+#header{
+    margin: 0px;
+    background-color: #584786;
+    display: flex;
+    color: white;
+}
+#menu{
+    margin-left: 60%;
+}
+#first-screen{
+    display: flex;
+    background-color: rgba(245, 244, 241, 0.931);
+}
