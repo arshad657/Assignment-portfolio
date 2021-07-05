@@ -6,7 +6,7 @@ body{
 #food{
     margin-left: 60px;
 }
-#court{
+.red{
     color: red;
 }
 ul{
@@ -22,9 +22,13 @@ li a{
     text-align: center;
     margin-right: 60px;
 }
+li a:hover{
+    color: red;
+    font-size: 18px;
+}
 #header{
     margin: 0px;
-    background-color: #584786;
+    background-color: #0d324d;
     display: flex;
     color: white;
 }
@@ -34,4 +38,113 @@ li a{
 #first-screen{
     display: flex;
     background-color: rgba(245, 244, 241, 0.931);
+    height: 890px;   
+    margin-bottom: 0px;
+}
+#first-screen img{
+    margin-right: 100px;
+}
+#first-p{
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 50%;
+}
+#first-p h1{
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgb(83, 82, 82);
+}
+#first-p p{
+    font-size: 30px;
+}
+#order{
+    text-decoration: none;
+    font-size: 20px;
+    background-image: linear-gradient(#36096d,#37d5d6
+    );
+    padding: 10px;
+    font-weight: 500;
+    color: white;
+    border: 1px solid rgb(88, 74, 214);
+    border-radius: 12px;
+}
+#order:hover{
+    background-image: linear-gradient(#37d5d6,#36096d);
+    border-radius: 20px;
+}
+#second-screen{
+    margin-top: 0px;
+    background-color: #537895
+
+    ;
+    height: 700px;
+    display: flex;
+}
+#second-p{
+    width: 60%;
+    margin-top: 50px;
+}
+#second-p h1{
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+}
+#second-p p{
+    font-size: 25px;
+    margin-right: 25px;
+}
+#second-screen img{
+    margin-top: 90px;
+}
+#contact{
+    text-decoration: none;
+    font-size: 20px;
+    background-image: linear-gradient(#7f5a83,#0d324d);
+    padding: 10px;
+    font-weight: 500;
+    color: white;
+    border: 1px solid rgb(88, 74, 214);
+    border-radius: 12px;
+}
+#contact:hover{
+    background-image: linear-gradient(#0d324d,#7f5a83);
+    font-size: 25px;
+}
+#third-screen{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(78, 78, 78);
+}
+.item{
+    margin-top: 80px;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 80px;
+    width: 450px;
+    box-shadow: 2px 5px 10px 5px gray;
+    border-radius: 20px 10px;
+}
+#items{
+    display: flex;
+    justify-content: center;
+}
+#third-food{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+}
+#second-food{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+    height: 240px;
+}
+#first-food{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+}
+.item:hover{
+    box-shadow: 8px 8px 20px 20px gray;
+    
 }
